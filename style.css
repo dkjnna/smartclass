@@ -1,0 +1,41 @@
+.content{
+    width: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.content2 img{
+    width:40%;
+    float:right;
+    
+}
+.content1{
+    width:50%; 
+    float:left; 
+    margin-left:30px; 
+    
+}
+.content1 .text{
+    align-items: center; 
+    justify-content:center;
+    margin-top: 100px;
+}
+.content1 h1{
+    font-weight:900; 
+    color:#001e6c;
+}
+.content1 p{
+    margin-bottom:1px; 
+}
+
+
+
+@media(max-width: 360px){
+    .content2 img{
+        width:90%;
+        margin: 20px 20px ;
+        padding-left: 10px;
+        align-items: center; 
+    justify-content:center;
+    }
+}
